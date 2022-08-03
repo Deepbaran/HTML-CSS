@@ -1,0 +1,48 @@
+++++++++++++++++++++++
+Notes
+++++++++++++++++++++++
+Starting point of a website - index.html
+=================
+DOM:
+=================
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+DOM - Document Object Model
+
+Document
+    |
+    Root Element:
+    <html>
+        |
+        ---Element:
+        |   <head>
+        |       |
+        |       Element:
+        |       <title>
+        |           |
+        |           Text:
+        |           "My title"
+        |
+        ---Element:
+            <body>
+                |
+                ---Element---Attribute:
+                    <a>       href
+                        |
+                        Text:
+                        "Link text"
+        
+
+++++++++++++++++++++++
+VSCode Shortcuts:
+++++++++++++++++++++++
+1. Duplicate a line: Alt+Shift+Down Arrow Key // Option+Cmd+Down Arrow Key
+3. Select Multiple lines: Ctrl+Alt+Shift+Down/Up Arrow Key
+4. Content wrapping: Alt+Z // Option+Z  
+
+++++++++++++++++++++
+TODO:
+++++++++++++++++++++
+====================
+HTML:
+====================
+1. Semantic Tags
