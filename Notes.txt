@@ -42,6 +42,14 @@ Block Level Elements:
 ---------------------
 These elements take up their own space.
 
+Self Closing Tags:
+----------------------
+- Self Closing elements do not require a closing tag. e.g - img, a, input.
+
+Pair Tags:
+----------
+- Pair tags require a closing tag. e.g. - html, head, body. 
+
 =================
 Forms:
 =================      
@@ -54,6 +62,8 @@ action - It is the place where the form is going.
 get / GET - For get forms, the inserted form data is shown in the url. It is mainly used to fetch some data from the server. For GET, the page is not usually redirected to a new page, unless configured as such.
 
 post / POST - For post forms, the inserted form data is not shown in the url. It is used to post the data in the server DB. For POST, the page gets redirected by default.
+
+required - This boolean attribute makes sure that the particular input is filled at the time of submission.
 
 input:
 ------
@@ -81,11 +91,22 @@ label:
 ------
 - This is mainly used for screen readers.
 
-for - This determines for which input form this label is created. When screen readers click on it, it automatically selects the input form having the same name as the value in the for attribute of the label tag.
+for - This determines for which input form this label is created. When screen readers click on it, it automatically selects the input form having the same name as the value in the for attribute of the label tag. This makes the texts associated with the correct input tags.
 
 Button:
 ------
 type - This defines the special functionality of the button. For submit type, it submits all the values in the form and throws it in the server.
+
+============
+More Tags:
+============
+<figure> - Used to bind a img
+<figcaption> - Used to give caption to a img
+
+<fieldset> - Used to bind similar input tags.
+<legend> - Used to caption for the content in the fieldset.
+
+<label> - For input fields, put the input tags inside the label tags. For boxes (check and radio) put the label right of them and wrap the text of the boxes by label tag. Make sure the for attribute of the label tag is same as the id attribute of the input tags.
 
 ============
 Links:
@@ -162,7 +183,10 @@ Links:
 
 ++++++++++++++++++++++
 Personal Notes
-++++++++++++++++++++++      
+++++++++++++++++++++++
+- All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+- THESE ARE NOT ATTRIBUTES OF TAGS. THEY ARE CALLED ELEMENTS OF THE TAGS.
+- The name attribute of the boxes (checkbox and radio) should be same for them to associated with each other.  
 - Embedding pages using iframes is a huge security risk.
 - For adding depth we add box-shadow.
 - Navigation menus are created using unordered list.
@@ -171,6 +195,11 @@ Personal Notes
 - ID should only be used for only 1 element and classes can be used for multiple elements in HTML and CSS.
 - z-index determines which element will be on top of which element in a web page.
 - It is recommended that for mobile view, give padding from left and right. Top and bottom are not necessary.
+- width property's value to be 80%, to make it 80% the width of its parent element
+- center the div horizontally, we can set margin-left and margin-right properties to auto.
+- inline-block elements only take up the width of their content
+- Add a max-width property to prevent it from growing too wide.
+- We can use -ve values for margin and padding to give a -ve effect to them.
 
 ++++++++++++++++++++++
 VSCode Shortcuts:
