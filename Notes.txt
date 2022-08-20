@@ -181,6 +181,8 @@ Links:
 9. CSS grid - https://css-tricks.com/snippets/css/complete-guide-grid/
 10. Z-Index - https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 11. CSS Transform - https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+12. Float - https://developer.mozilla.org/en-US/docs/Web/CSS/float
+13. Grid - https://developer.mozilla.org/en-US/docs/Web/CSS/grid
 
 ++++++++++++++++++++++
 Personal Notes
