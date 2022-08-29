@@ -42,6 +42,10 @@ Block Level Elements:
 ---------------------
 These elements take up their own space.
 
+inline-block Level Elements:
+---------------------
+The element generates a block element box that will be flowed with surrounding content as if it were a single inline box (behaving much like a replaced element would).
+
 Self Closing Tags:
 ----------------------
 - Self Closing elements do not require a closing tag. e.g - img, a, input.
@@ -183,6 +187,7 @@ Links:
 11. CSS Transform - https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 12. Float - https://developer.mozilla.org/en-US/docs/Web/CSS/float
 13. Grid - https://developer.mozilla.org/en-US/docs/Web/CSS/grid
+14. display - https://developer.mozilla.org/en-US/docs/Web/CSS/display
 
 ++++++++++++++++++++++
 Personal Notes
